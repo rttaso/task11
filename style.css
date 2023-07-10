@@ -232,3 +232,80 @@ textarea {
 .blue-list li a:hover {
     text-decoration: underline;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .header h5 {
+        font-size: 16px;
+    }
+
+    .header h2 {
+        font-size: 42px;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    .sec-2 h2 {
+        width: 100%;
+    }
+
+    .images {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header h5 {
+        font-size: 14px;
+    }
+
+    .header h2 {
+        font-size: 36px;
+        width: 100%;
+    }
+
+    .description-box,
+    .input-boxes {
+        width: 100%;
+    }
+
+    textarea {
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 320px;
+    }
+
+    .header h5 {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .header h2 {
+        font-size: 24px;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    textarea {
+        height: 80px;
+    }
+
+    .blue-button {
+        height: 40px;
+        font-size: 12px;
+    }
+}
